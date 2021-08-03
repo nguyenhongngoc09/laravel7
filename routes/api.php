@@ -24,5 +24,3 @@ Route::group([
     Route::post('refresh', 'ApiAuthenController@refresh');
     Route::get('profile', 'ApiAuthenController@profile');
 });
-
-Route::get('code', 'CodeController@solve');
